@@ -1,0 +1,35 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@types/react-color": "^3.0.4",
+    "@zeit/next-sass": "^1.0.1",
+    "clsx": "latest",
+    "eslint": "^7.6.0",
+    "fontsource-roboto": "^3.0.3",
+    "material-table": "1.67.1",
+    "next": "latest",
+    "node-sass": "^4.14.1",
+    "react": "latest",
+    "react-color": "^2.18.1",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "start:dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
+    "lint": "eslint --ext .ts,.tsx .",
+    "verify": "yarn lint"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
